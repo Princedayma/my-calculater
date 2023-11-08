@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculater</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="utils.css" rel="stylesheet" type="text/css" />
+    
+</head>
+<style>
+  html, body {
+height: 100%;
+width: 100%;
+font-family: 'Roboto', sans-serif; 
+}
+
+.container{
+    border: 3px solid black;
+    border-radius: 9px;
+}
+
+.button{
+    padding: 20px;
+    margin: 3px 3px;
+    border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.flex{
+    display: flex;
+
+}
+.flex.co{
+    flex-direction: column;
+}
+ 
+ .input{
+  background-color: antiquewhite;
+ }
+</style>
+<body>
+
+
+  <div>
+    <div   ><class="text-center">Welcome to Calculate me!</div>
+    <div class="container bg-pink flex flex-col  items-center  mx-auto ">
+
+        <div class="row">
+            <input class ="input" type="text"/>
+        </div>
+        <div class="row">
+            <button class="button">C</button>
+            <button class="button">%</button>
+            <button class="button">M+</button>
+            <button class="button">M-</button>
+          </div>
+          <div class="row">
+            <button class="button">7</button>
+            <button class="button">8</button>
+            <button class="button">9</button>
+            <button class="button">*</button>
+          </div>
+          <div class="row">
+            <button class="button">4</button>
+            <button class="button">5</button>
+            <button class="button">6</button>
+            <button class="button">/</button>
+          </div>
+          <div class="row">
+            <button class="button">1</button>
+            <button class="button">2</button>
+            <button class="button">3</button>
+            <button class="button">+</button>
+          </div>
+          <div class="row">
+            <button class="button">0</button>
+            <button class="button">.</button>
+            <button class="button">=</button>
+            <button class="button">-</button>
+          </div>
+          
+    
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script><style media="all" id="fa-v4-font-face"></style>
+</body>
+</html>
